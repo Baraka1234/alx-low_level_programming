@@ -3,7 +3,7 @@
 /**
  * main - prints the string in the function
  *
- * Description: the program prints out "Programming is like building a multilingual puzzle
+ * Description: prints out "Programming is like building a multilingual puzzle
  * Return: 0
  */
 int main(void)
