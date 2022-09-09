@@ -3,7 +3,7 @@
 
 /**
  *
- * main: Prints out string
+ * main- Prints out string
  *
  * Description: A program that prints out and that piece of art is useful
  * Return: 1
