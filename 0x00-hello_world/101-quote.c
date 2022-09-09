@@ -2,9 +2,9 @@
 #include <unistd.h>
 
 /**
- *
  * main- Prints out string in the function
  *
+ * Description : prints out the string in the main function
  * Return: 1
  */
 int main(void)
