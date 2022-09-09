@@ -3,9 +3,8 @@
 
 /**
  *
- * main- Prints out string
+ * main- Prints out string in the function
  *
- * Description: A program that prints out and that piece of art is useful
  * Return: 1
  */
 int main(void)
