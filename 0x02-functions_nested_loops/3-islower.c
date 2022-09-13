@@ -3,6 +3,7 @@
 /**
  * _islower - checks for lowercase letters
  *
+ * Description: checks for lower case letters
  * Return: 0 or 1
  */
 
