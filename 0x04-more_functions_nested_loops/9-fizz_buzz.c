@@ -1,10 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - prints number, fizz, buzz or fizzbuzz
- *
- * Return: 0
- */
+*main - program that prints either number
+*or fizz or buzz or fizzBuzz
+*
+*
+*Return: returns 0
+*/
 
 int main(void)
 {
