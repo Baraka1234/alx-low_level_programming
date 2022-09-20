@@ -3,21 +3,28 @@
 /**
  * rev_string - Prints the reverse of a string
  *
- * @s: The string being reversed
- * Return: The reverse of a string
+ * @s: The pointer to the string being reversed
+ * Return: void
  */
 
 void rev_string(char *s)
 {
-	int l, i;
-	char ch;
-
-	for (l = 0; s[l] != '\0'; l++)
-
-		for (i = 0; i < l / 2; i++)
-		{
-			ch = s[l];
-			s[l] = s[l - 1 - i];
-			s[l - 1 - i] = ch;
-		}
+	int i, j, k, temp;
+	
+	i = 0;
+	while (s[i] != '\0')
+	{
+		i++;
+	}
+	k = 0;
+	j = i - 1;
+	
+	while (k < j)
+	{
+		temp = s[k];
+		s[k] = s[j];
+		s[j] = temp;
+		k++;
+		j--;
+	}
 }
