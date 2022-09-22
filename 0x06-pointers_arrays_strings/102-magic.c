@@ -1,23 +1,28 @@
-#include <stdio.h>
+#include "main.h"
 
-int main(void)
+/**
+ * _strcat - concats two arrays
+ *
+ * @dest: destination of concat
+ * @src: source array to concat
+ *
+ * Return: char value
+ */
+
+char *_strcat(char *dest, char *src)
 {
-  int n;
-  int a[5];
-  int *p;
+	int i;
+	int j;
 
-  a[2] = 1024;
-  p = &n;
-  /*
-   * write your line of code here...
-   * Remember:
-   * - you are not allowed to use a
-   * - you are not allowed to modify p
-   * - only one statement
-   * - you are not allowed to code anything else than this line of code
-   */
-  *(p + 5) = 98;
-  /* ...so that this prints 98\n */
-  printf("a[2] = %d\n", a[2]);
-  return (0);
+	for (j = 0; dest[j] != '\0'; j++)
+	{}
+
+	for (i = 0; src[i] != '\0'; i++)
+	{
+		dest[j + i] = src[i];
+	}
+	dest[j + i] = '\0';
+
+	return (dest);
+
 }
