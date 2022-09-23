@@ -2,10 +2,8 @@
 
 /**
  * _strcat - concatenates 2 strings
- *
  * @dest: destination array
  * @src: source array
- *
  * Return: destination array
  */
 char *_strcat(char *dest, char *src)
