@@ -18,7 +18,7 @@ int main(int args, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-	c = atoi(argv[1])
+	c = atoi(argv[1]);
 
 	if (c < 0)
 	{
