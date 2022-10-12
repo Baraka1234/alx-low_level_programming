@@ -5,7 +5,7 @@
  * @a: first integer
  * @b: second int
  *
- * Return: sum of a and b
+ * Return: a+b
  */
 
 int op_add(int a, int b)
@@ -18,7 +18,7 @@ int op_add(int a, int b)
  * @a: first integer
  * @b: second integer
  *
- * Return: diffrence between of a and b
+ * Return:  a - b
  */
 int op_sub(int a, int b)
 {
@@ -26,11 +26,11 @@ int op_sub(int a, int b)
 }
 
 /**
- * op_mul - function to multiply two variables
+ * op_mul - multiplies two variables
  * @a: first integer
  * @b: second integer
  *
- * Return: the product of a and b
+ * Return: a * b
  */
 int op_mul(int a, int b)
 {
@@ -42,7 +42,7 @@ int op_mul(int a, int b)
  * @a: first integer
  * @b: second integer
  *
- * Return: return the result of the division of a by b
+ * Return: a / b
  */
 int op_div(int a, int b)
 {

@@ -2,8 +2,9 @@
 #include <stdlib.h>
 
 /**
- * get_op_func - call back, to call function depending on what is passed
+ * get_op_func - to call function depending on what is passed
  * @s: pointer to arguement passed that determines what function to call
+ *
  * Return: result
  */
 
