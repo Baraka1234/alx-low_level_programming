@@ -25,5 +25,5 @@
 	}
 	printf("\n");
 
-	va_end(numbers);
+	va_end(num);
 }
