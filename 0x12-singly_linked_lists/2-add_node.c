@@ -1,7 +1,7 @@
 #include "lists.h"
 /**
  * add_node - adds a new node at the beginning of list
- * head: head of the lintked list
+ * @head: head of the lintked list
  * @str: string to store in the list
  * Return: address of the head
  */
