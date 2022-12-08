@@ -7,7 +7,7 @@
  * @n: value of element
  * Return: the address of the new wlement
  */
-dlistint_t *add_dnodeint(dlistint(dlistint_t **head, const int n)
+dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
 	dlistint_t *new;
 	dlistint_t *h;
